@@ -1,3 +1,9 @@
-/* Columns using Grid
+/* Flex
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-// TODO: Add Grid classes
+.flex {
+  display: flex;
+
+  &.center {
+    margin: auto 0;
+  }
+}
